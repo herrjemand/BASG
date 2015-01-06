@@ -56,7 +56,7 @@ def strip(id):
 		}
 
 def do_the_thing(max):
-	for i in range(9,max):
+	for i in range(0, max, 10):
 		print('\n',i)
 		data = strip(i)
 		if data['appid'] != 0:
