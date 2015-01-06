@@ -1,0 +1,357 @@
+{
+    "70": {
+        "raiting": {
+            "raiting": 10,
+            "counts": 6170
+        },
+        "tags": [
+            "FPS",
+            "Classic",
+            "Action",
+            "Sci-fi",
+            "Singleplayer",
+            "Shooter",
+            "Aliens",
+            "First-Person",
+            "1990's",
+            "Adventure",
+            "Story Rich",
+            "Multiplayer",
+            "Atmospheric",
+            "Silent Protagonist",
+            "Zombies",
+            "Moddable",
+            "Horror",
+            "Great Soundtrack",
+            "Puzzle",
+            "Linear"
+        ],
+        "release_date": "8 Nov, 1998",
+        "name": "Half-Life",
+        "appid": 70,
+        "price": 9.99
+    },
+    "20": {
+        "raiting": {
+            "raiting": 9,
+            "counts": 1231
+        },
+        "tags": [
+            "Action",
+            "FPS",
+            "Multiplayer",
+            "Classic",
+            "Shooter",
+            "Class-Based",
+            "First-Person",
+            "Team-Based",
+            "Co-op",
+            "Remake",
+            "Massively Multiplayer",
+            "Competitive",
+            "Free to Play",
+            "Indie",
+            "Fast-Paced"
+        ],
+        "release_date": "1 Apr, 1999",
+        "name": "Team Fortress Classic",
+        "appid": 20,
+        "price": 4.99
+    },
+    "10": {
+        "raiting": {
+            "raiting": 10,
+            "counts": 34746
+        },
+        "tags": [
+            "Action",
+            "FPS",
+            "Multiplayer",
+            "Classic",
+            "Shooter",
+            "Team-Based",
+            "Competitive",
+            "Tactical",
+            "First-Person",
+            "1990's",
+            "Co-op",
+            "Online Co-Op",
+            "e-sports",
+            "Moddable",
+            "Singleplayer",
+            "Strategy",
+            "Local Co-Op",
+            "Funny",
+            "Comedy",
+            "Hack and Slash"
+        ],
+        "release_date": "1 Nov, 2000",
+        "name": "Counter-Strike",
+        "appid": 10,
+        "price": 9.99
+    },
+    "219": {
+        "raiting": {
+            "raiting": 10,
+            "counts": 19292
+        },
+        "tags": [
+            "FPS",
+            "Action",
+            "Sci-fi",
+            "Classic",
+            "Singleplayer",
+            "Story Rich",
+            "Shooter",
+            "Adventure",
+            "Dystopian",
+            "First-Person",
+            "Atmospheric",
+            "Great Soundtrack",
+            "Aliens",
+            "Zombies",
+            "Moddable",
+            "Physics",
+            "Silent Protagonist",
+            "Horror",
+            "Puzzle",
+            "Multiplayer"
+        ],
+        "release_date": "16 Nov, 2004",
+        "name": "Half-Life 2",
+        "appid": 219,
+        "price": 9.99
+    },
+    "80": {
+        "raiting": {
+            "raiting": 9,
+            "counts": 3287
+        },
+        "tags": [
+            "Action",
+            "FPS",
+            "Shooter",
+            "Multiplayer",
+            "Tactical",
+            "Competitive",
+            "Singleplayer",
+            "First-Person",
+            "Classic",
+            "Co-op",
+            "Team-Based",
+            "Strategy",
+            "Massively Multiplayer",
+            "Free to Play",
+            "Zombies"
+        ],
+        "release_date": "1 Mar, 2004",
+        "name": "Counter-Strike: Condition Zero",
+        "appid": 80,
+        "price": 9.99
+    },
+    "30": {
+        "raiting": {
+            "raiting": 9,
+            "counts": 1113
+        },
+        "tags": [
+            "Action",
+            "FPS",
+            "Multiplayer",
+            "World War II",
+            "Classic",
+            "Team-Based",
+            "Shooter",
+            "War",
+            "First-Person"
+        ],
+        "release_date": "1 May, 2003",
+        "name": "Day of Defeat",
+        "appid": 30,
+        "price": 4.99
+    },
+    "240": {
+        "raiting": {
+            "raiting": 10,
+            "counts": 32522
+        },
+        "tags": [
+            "Action",
+            "FPS",
+            "Multiplayer",
+            "Shooter",
+            "Team-Based",
+            "Tactical",
+            "First-Person",
+            "Competitive",
+            "Military",
+            "PvP",
+            "Moddable",
+            "e-sports",
+            "War",
+            "Difficult",
+            "Strategy",
+            "Singleplayer",
+            "Atmospheric",
+            "Simulation",
+            "Survival",
+            "Sandbox"
+        ],
+        "release_date": "1 Nov, 2004",
+        "name": "Counter-Strike: Source",
+        "appid": 240,
+        "price": 19.99
+    },
+    "130": {
+        "raiting": {
+            "raiting": 9,
+            "counts": 965
+        },
+        "tags": [
+            "FPS",
+            "Action",
+            "Sci-fi",
+            "Singleplayer",
+            "Aliens",
+            "Shooter",
+            "First-Person",
+            "Classic",
+            "Adventure",
+            "Zombies",
+            "1990's",
+            "Short",
+            "Multiplayer",
+            "Atmospheric",
+            "Horror"
+        ],
+        "release_date": "1 Jun, 2001",
+        "name": "Half-Life: Blue Shift",
+        "appid": 130,
+        "price": 4.99
+    },
+    "220": {
+        "raiting": {
+            "raiting": 10,
+            "counts": 19292
+        },
+        "tags": [
+            "FPS",
+            "Action",
+            "Sci-fi",
+            "Classic",
+            "Singleplayer",
+            "Story Rich",
+            "Shooter",
+            "Adventure",
+            "Dystopian",
+            "First-Person",
+            "Atmospheric",
+            "Great Soundtrack",
+            "Aliens",
+            "Zombies",
+            "Moddable",
+            "Physics",
+            "Silent Protagonist",
+            "Horror",
+            "Puzzle",
+            "Multiplayer"
+        ],
+        "release_date": "16 Nov, 2004",
+        "name": "Half-Life 2",
+        "appid": 220,
+        "price": 9.99
+    },
+    "50": {
+        "raiting": {
+            "raiting": 10,
+            "counts": 1267
+        },
+        "tags": [
+            "FPS",
+            "Action",
+            "Sci-fi",
+            "Classic",
+            "Singleplayer",
+            "Shooter",
+            "First-Person",
+            "Aliens",
+            "Adventure",
+            "Multiplayer",
+            "Zombies",
+            "1990's",
+            "Atmospheric",
+            "Horror"
+        ],
+        "release_date": "1 Nov, 1999",
+        "name": "Half-Life: Opposing Force",
+        "appid": 50,
+        "price": 4.99
+    },
+    "60": {
+        "raiting": {
+            "raiting": 9,
+            "counts": 1077
+        },
+        "tags": [
+            "Action",
+            "FPS",
+            "Multiplayer",
+            "First-Person",
+            "Cyberpunk",
+            "Conspiracy",
+            "Space",
+            "Classic",
+            "Sci-fi",
+            "Shooter"
+        ],
+        "release_date": "1 Nov, 2000",
+        "name": "Ricochet",
+        "appid": 60,
+        "price": 4.99
+    },
+    "100": {
+        "raiting": {
+            "raiting": 9,
+            "counts": 3287
+        },
+        "tags": [
+            "Action",
+            "FPS",
+            "Shooter",
+            "Multiplayer",
+            "Tactical",
+            "Competitive",
+            "Singleplayer",
+            "First-Person",
+            "Classic",
+            "Co-op",
+            "Team-Based",
+            "Strategy",
+            "Massively Multiplayer",
+            "Free to Play",
+            "Zombies"
+        ],
+        "release_date": "1 Mar, 2004",
+        "name": "Counter-Strike: Condition Zero",
+        "appid": 100,
+        "price": 9.99
+    },
+    "40": {
+        "raiting": {
+            "raiting": 9,
+            "counts": 484
+        },
+        "tags": [
+            "Action",
+            "FPS",
+            "Classic",
+            "Multiplayer",
+            "Shooter",
+            "First-Person"
+        ],
+        "release_date": "1 Jun, 2001",
+        "name": "Deathmatch Classic",
+        "appid": 40,
+        "price": 4.99
+    }
+}
