@@ -1,7 +1,21 @@
 from lxml import html
-import requests
+import requests, time, os.path, json
 
 DEBUG = int(os.environ.get('BASG_DEBUG', '0'))
+def add_record(item):
+	loc = 'games.json'
+	if not os.path.isfile(loc):
+		with open(loc, 'w') as w:
+			w.write(json.dumps({item.appid:item}, sort_keys=True, indent=4, separators=(',', ': '))
+	else
+		with open(loc) as r:
+			data = json.parse(r.read())
+			data[item.appid] = item
+			with open(loc,'w') as w:
+				w.write(json.dumps(data, sort_keys=True, indent=4, separators=(',', ': ')))
+
+
+
 def strip(id):
 	try:
 		page = requests.get('http://store.steampowered.com/app/' + str(id))
@@ -25,7 +39,7 @@ def strip(id):
 	except Exception as e:
 		if DEBUG:
 			print('Error on: ', id, '\n', e)
-			
+
 		return	{
 			'name'			:	''	,
 			'price'			:	0.0	,
@@ -37,4 +51,3 @@ def strip(id):
 			'release_date'	:	''	,
 			'raiting'		:	{'counts' : 0, 'raiting' : 0}
 		}
-
