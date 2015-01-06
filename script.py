@@ -23,4 +23,9 @@ developer = metacache[2:][0]
 
 appid = tree.xpath('//div[@class=\'glance_tags popular_tags\']/@data-appid')[0]
 
-release_date = tree.xpath('//div[@class=\'release_date\']/span[@class=\'date\']/text()')
+release_date = tree.xpath('//div[@class=\'release_date\']/span[@class=\'date\']/text()')[0]
+
+raiting = {
+	'counts'	: 	tree.xpath('//div[@class=\'release_date\']/meta[@itemprop=\'reviewCount\']/@content')[0],
+	'raiting'	:	tree.xpath('//div[@class=\'release_date\']/meta[@itemprop=\'ratingValue\']/@content')[0]
+}
