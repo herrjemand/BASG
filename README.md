@@ -6,3 +6,12 @@ Games:  5680
 Total cost:  76172.86 USD
 Median price:  13.41 USD
 ```
+
+```
+{
+	"license" {
+		"data":"ODC Open Database License (ODbL)",
+		"code":"MIT"
+	}
+}
+```
