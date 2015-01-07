@@ -3,6 +3,6 @@
 ```
 niemand@NULL:~/BASG$ py count.py 
 Games:  5680
-Total cost:  76172.86
-Median price:  13.41
+Total cost:  76172.86 USD
+Median price:  13.41 USD
 ```
