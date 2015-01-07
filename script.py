@@ -1,7 +1,7 @@
 from lxml import html
 import requests, time, os.path, json
 
-DEBUG = 1#int(os.environ.get('BASG_DEBUG', '0'))
+DEBUG = int(os.environ.get('BASG_DEBUG', '0'))
 def add_record(item):
 	loc = 'games.json'
 	
@@ -28,14 +28,17 @@ def strip(id):
 			'name'			:	' '.join(tree.xpath('//div[@class=\'apphub_AppName\']/text()')),
 			'price'			:	float(' '.join(tree.xpath('//meta[@itemprop=\'price\']/@content'))),
 			'tags'			:	[' '.join(item.split()) for item in tree.xpath('//div[@class=\'glance_tags popular_tags\']/a/text()')],
+			
+			# REDO THIS BLOCK
 			# 'genre'			:	tree.xpath('//b[text()=\'Genre:\']/following-sibling::a/text()')[:2],
 			# 'publisher'		:	tree.xpath('//b[text()=\'Genre:\']/following-sibling::a/text()')[2:][1],
 			# 'developer'		:	tree.xpath('//b[text()=\'Genre:\']/following-sibling::a/text()')[2:][0],
+			
 			'appid'			:	int(id),
 			'release_date'	:	' '.join(tree.xpath('//div[@class=\'release_date\']/span[@class=\'date\']/text()')),
 			'raiting'		:	{
-									'counts'	: 	int(' '.join(tree.xpath('//div[@class=\'release_date\']/meta[@itemprop=\'reviewCount\']/@content'))),
-									'raiting'	:	int(' '.join(tree.xpath('//div[@class=\'release_date\']/meta[@itemprop=\'ratingValue\']/@content')))
+									'counts'	: 	' '.join(tree.xpath('//div[@class=\'release_date\']/meta[@itemprop=\'reviewCount\']/@content')),
+									'raiting'	:	' '.join(tree.xpath('//div[@class=\'release_date\']/meta[@itemprop=\'ratingValue\']/@content'))
 								}
 		}
 		return game
@@ -50,7 +53,6 @@ def strip(id):
 			'genre'			:	[]	,
 			'publisher'		:	''	,
 			'developer'		:	''	,
-			'appid'			:	0	,
 			'release_date'	:	''	,
 			'raiting'		:	{'counts' : 0, 'raiting' : 0}
 		}
