@@ -1,4 +1,4 @@
-## I always woundered how much will it cost to buy all of the steam games...
+## I always woundered how much will it cost to buy all of the steam games. So here is my answer:
 
 ```
 niemand@NULL:~/BASG$ py count.py 
